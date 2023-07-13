@@ -1,0 +1,51 @@
+.user-table {
+    width: 70%;
+    border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.user-table th {
+    background-color: #353535;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.user-table td {
+    background-color: #383838;
+}
+
+.user-table tr.selected td {
+    background-color: #539e35;
+}
+
+.user-table .drag-handle {
+    cursor: grab;
+}
+
+.export-button {
+    background-color: #2d4cb1;
+    padding: 10px;
+    width: 10%;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.inputs {
+    width: 100%;
+    height: 100%;
+}
