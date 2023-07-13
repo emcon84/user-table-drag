@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { CSVLink } from 'react-csv';
 import { DragDropContext, Droppable, Draggable, DropResult } from 'react-beautiful-dnd';
-import { fetchUsers } from '@/app/api/users/route';
+import { fetchUsers } from '@/app/api/users';
 import './table.css'
 
 
